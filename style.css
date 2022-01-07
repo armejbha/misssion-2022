@@ -1,58 +1,119 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    text-align:justify;
     margin:0;
     padding:0;
+}
+section{
+    margin-bottom:50px;
 }
 .main-container{
     padding:0 10%;
 }
 .flexible-box{
     display:flex;
-  
 }
 .half-width{
     width:50%;
-}
-
-.half-width img{
-    width:70%;
-    padding-left:15%;
-  
-}
-.half-width-box{
-    padding-top:10%;
     text-align:justify;
 }
+.half-width img{
+    width:75%;
+    padding-left:25%;
+}
+.half-width-box{
+    padding-top:15%;
+    text-align:justify;
+}
+.half-width-one{
+    width:30%;
+}
+.half-width-one img{
+    width:100%;
+}
+.half-width-two{
+    width:70%;
+    padding:0 5%;
+}
 h1{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
     font-size:50px;
 }
-.heading-color{
+p{
+    margin:30px 0;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    font-size:40px;
+}
+.half-width-two h3{
+    font-family: 'Poppins', sans-serif;
+    font-size:40px;
+    line-height:30px;
+}
+.font-color{
     color:orange;
 }
 .left-border{
-    margin-top:14%;
-    width:5px;
-    height:150px;
-    background-color:red;
-    border-radius:10px;
+    margin-top:22px;
+    padding-right:5px;
+    height:110px;
+    border-left:5px solid;
+    border-radius:5%;
+    border-image: linear-gradient(rgb(255, 102, 0), rgb(255, 148, 129));
+    border-image-slice:1;
 }
 .heading{
-    padding-left:10px;
+    padding-left:5px;
 }
 .link-bottom{
     text-decoration: none;
     padding:2% 5%;
     color:white;
-    background-color: tomato; 
+    background-image:linear-gradient(orange,tomato); 
     border-radius:5px;
-    margin-bottom:25px;
 }
-.one-third-width{
-    width:30%;
-    background-color:tomato;
-    margin:1%;
-    border-radius:10px;
+.main-box {
+    display: flex;
 }
-.one-third-width img{
-    width:40%;
+
+.one-third-width {
+    width: 30%;
+    padding: 2%;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 2%;
+
+}
+.one-third-width img {
+    width: 40%;
+}
+#left-box{
+    background-color:rgb(255, 226, 226);
+}
+#middle-box{
+    background-color:rgb(207, 196, 196);
+}
+#right-box{
+    background-color:#a185a1;
+}
+.about-text{
+    padding-top:15%;
+}
+.about-text h3{
+    color:rgb(133, 133, 240);
+}
+.footer-main-section{
+    height:200px;
+    color:white;
+    text-align:center;
+    background-color:rgb(0, 0, 44);
+    
+}
+.footer-section{
+    padding-top:20px;
+}
+.footer-section h3{
+    font-size:35px;
 }
